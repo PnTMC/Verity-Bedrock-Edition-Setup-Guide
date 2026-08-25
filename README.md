@@ -156,7 +156,7 @@ bash start_android.sh
 |:-|
 | 1. Download and install **[aShell](https://apps.apple.com/us/app/a-shell/id1473805438)** (or **[aShell mini](https://apps.apple.com/us/app/a-shell-mini/id1543537943)**) from the App Store |
 | 2. Open **aShell** and allow access to **Files / Local Storage** when prompted |
-| 3. On iPhone, open the **Files** app → put the extracted `verity-ios-setup` folder into **aShell** (or **On My iPhone/iPad → aShell / Documents**) |
+| 3. On iPhone/iPad, open the **Files** app → put the extracted `verity-ios-setup` folder into **aShell** (or **On My iPhone/iPad → aShell / Documents**) |
 
 <br>
 
