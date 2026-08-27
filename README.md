@@ -162,7 +162,7 @@ bash start_android.sh
 
 | **SETUP on iOS** |
 |:-|
-| 1. Extract the `verity-ios-setup.zip` file you downloaded at **aShell** |
+| 1. Extract the `verity-ios-setup.zip` file you downloaded in **aShell** |
 | 2. Open **aShell** $\rightarrow$ write `pickFolder` then enter & pick **aShell** $\rightarrow$ write `vim .env` then enter then write `i` then enter then insert your API keys / FishAudio Model ID!! <br><br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) <br><br> After you finish inserting the API keys and voice model, type `:wq` to save and exit; if you dont want to save, type `:q!`. <br><br> (If you run into difficulties, you can ask AI for help or look for a tutorial)|
 | 3. Open **aShell** and run the commands below! |
 
