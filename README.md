@@ -173,6 +173,13 @@ sh reinstall_ios.sh
 sh start_ios.sh
 ```
 
+<br>
+
+Functions of the buttons $\downarrow$$\downarrow$$\downarrow$
+<p align="center">
+  <img width="689" height="317" alt="Verity Banner" src="https://github.com/PnTMC/Verity-Bedrock-Edition-Setup-Guide/blob/main/docs/buttonname.png" />
+</p>
+
 > [!IMPORTANT]
 > Microphone / !talk is NOT supported on iOS (aShell). Type chat normally to Verity
 
