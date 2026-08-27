@@ -155,16 +155,16 @@ bash start_android.sh
 | **Using aShell** |
 |:-|
 | 1. Download and install **[aShell](https://apps.apple.com/us/app/a-shell/id1473805438)** (or **[aShell mini](https://apps.apple.com/us/app/a-shell-mini/id1543537943)**) from the App Store |
-| 2. Open **aShell** and allow access to **Files / Local Storage** when prompted |
-| 3. On iPhone/iPad, open the **Files** app → put the extracted `verity-ios-setup` folder into **aShell** (or **On My iPhone/iPad → aShell / Documents**) |
+| 2. Open **Setttings (not in a-Shell)** $\rightarrow$ **Applications** $\rightarrow$ **a-Shell** $\rightarrow$ **Document Storage** $\rightarrow$ Select **On My iPhone** |
+| 3. On iPhone/iPad, open the **Files** app → move `verity-ios-setup.zip` into **aShell** (or search **On My iPhone/iPad** → **aShell**) |
 
 <br>
 
 | **SETUP on iOS** |
 |:-|
-| 1. Extract the `verity-ios-setup.zip` file you downloaded |
-| 2. Open the `.env` file inside `verity-ios-setup` and insert your API keys / FishAudio Model ID!! <br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
-| 3. Open **aShell** and run the commands below (adjust the `cd` path if your folder location differs) : |
+| 1. Extract the `verity-ios-setup.zip` file you downloaded at **aShell** |
+| 2. Open **aShell** $\rightarrow$ write `pickFolder` then enter & pick **aShell** $\rightarrow$ write `vim .env` then enter then write `i` then enter then insert your API keys / FishAudio Model ID!! <br><br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) <br><br> After you finish inserting the API keys and voice model, type `:wq` to save and exit; if you dont want to save, type `:q!`. <br><br> (If you run into difficulties, you can ask AI for help or look for a tutorial)|
+| 3. Open **aShell** and run the commands below! |
 
 <br>
 
@@ -174,10 +174,7 @@ sh start_ios.sh
 ```
 
 > [!IMPORTANT]
-> Microphone / !talk is NOT supported on iOS (aShell). Type chat normally to Verity, or use !verity <text>.
-
-> [!NOTE]
-> If cd Documents/verity-ios-setup fails, run ls / pwd in aShell to find the folder, then cd into it.
+> Microphone / !talk is NOT supported on iOS (aShell). Type chat normally to Verity
 
 > [!NOTE]
 > After you run start_ios.sh, open Minecraft on the same iPhone, install the add-on, enable Beta APIs, and turn on Cheats
@@ -185,7 +182,7 @@ sh start_ios.sh
 - Once you have entered the world, run /connect 127.0.0.1:3000 (When you re-enter the world, make sure to run this command again)
 
 > [!NOTE]
-> Press CTRL + C in aShell to stop the program. To play again, run: `cd Documents/verity-ios-setup && sh start_ios.sh`
+> Remove **aShell** Tab to stop the program. To play again, run: `sh start_ios.sh`
 
 <br>
 
