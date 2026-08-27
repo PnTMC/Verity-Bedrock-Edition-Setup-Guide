@@ -169,7 +169,6 @@ bash start_android.sh
 <br>
 
 ```bash
-cd Documents/verity-ios-setup
 sh reinstall_ios.sh
 sh start_ios.sh
 ```
